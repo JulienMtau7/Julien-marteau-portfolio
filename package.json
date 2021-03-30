@@ -1,0 +1,22 @@
+{
+  "name": "julien-marteau",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@vue/compiler-sfc": "^3.0.9",
+    "core-js": "^3.8.3",
+    "emailjs-com": "^2.6.4",
+    "nuxt": "^2.14.12",
+    "vue-particles": "^1.0.9"
+  },
+  "devDependencies": {
+    "sass-loader": "10.1.1",
+    "sass": "^1.32.8"
+  }
+}
