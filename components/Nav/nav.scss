@@ -1,6 +1,6 @@
 /* --- MOBILE --- */
 .header {
-  .logo-desktop {
+  .logo_jmtau_desktop {
     display: none;
   }
 
@@ -10,8 +10,8 @@
     padding: 1rem 2rem;
     align-items: center;
 
-    & img {
-      width: 100px;
+    .logo_jmtau {
+      width: 110px;
     }
   }
 
@@ -79,7 +79,7 @@
 
         & a {
           text-decoration: none;
-          color: #ff4e4e;
+          color: #4e9aff;
           font-weight: 500;
         }
       }
@@ -211,15 +211,13 @@
     display: flex;
     padding: 2rem 5rem;
 
-    .logo-desktop {
+    .logo_jmtau_desktop {
       display: initial;
-      width: 100px;
-      margin-right: 2rem;
+      width: 110px;
     }
 
     &__header {
       display: none;
-
     }
 
     & nav {

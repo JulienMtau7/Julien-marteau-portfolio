@@ -90,6 +90,31 @@
         }
       }
     }
+
+    & .linkAbout {
+      display: flex;
+      align-items: center;
+      & a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &:hover{
+          & img {
+            width: 50px;
+          }
+        }
+
+        & img {
+          width: 45px;
+          margin: 0 1rem;
+
+          &:nth-of-type(1) {
+            margin-right: 0;
+          }
+        }
+      }
+    }
   }
 
   .wrapperSkills {
@@ -123,6 +148,25 @@
       }
     }
   }
+}
+
+@media screen and (min-width: 400px) {
+  .about__content {
+    & section {
+      & .linkAbout {
+        & a {
+          & img {
+            margin: 0 3rem;
+
+            &:nth-of-type(1) {
+              margin-right: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
 }
 
 @media screen and (min-width: 500px) {

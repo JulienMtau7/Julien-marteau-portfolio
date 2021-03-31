@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <div class="header__header">
-      <img src="@/assets/img/mj-logo.png" alt="logo_Marteau-Julien">
+      <NuxtLink to="/" exact><img class="logo_jmtau" src="@/assets/img/mj-logo.png" alt="logo_Marteau-Julien"></NuxtLink>
       <div
         id="menu-btn"
         class="menu-btn disable"
@@ -11,7 +11,7 @@
       </div>
     </div>
 
-    <img  class="logo-desktop" src="@/assets/img/mj-logo.png" alt="logo_Marteau-Julien">
+    <NuxtLink to="/" exact><img class="logo_jmtau_desktop" src="@/assets/img/mj-logo.png" alt="logo_Marteau-Julien"></NuxtLink>
 
     <nav id="nav" class="nav disable">
       <ul>

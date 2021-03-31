@@ -11,9 +11,13 @@
               <p>Aujourdhui, mon objectif est d'acquérir de nouvelles compétences sur les technologies que je connais déjà ou sur d'autres stack. Je suis donc à la recherche d'une première expérience en tant que développeur web front end, stagiaire ou salarié.</p>
             </div>
 
-          <span class="buttonCV">
-            <a class="buttonCV__link" target="_blank" href="https://www.fichier-pdf.fr/2021/03/24/cv-marteau/cv-marteau.pdf">Mon Cv</a>
-          </span>
+          <div class="linkAbout">
+            <span class="buttonCV">
+              <a class="buttonCV__link" target="_blank" href="https://www.fichier-pdf.fr/2021/03/24/cv-marteau/cv-marteau.pdf">Mon Cv</a>
+            </span>
+            <a href="https://www.linkedin.com/in/julien-marteau/" target="_blank"><img src="@/assets/img/linkedin.svg" alt="linkedin-svg"></a>
+            <a href="https://github.com/JulienMtau7" target="_blank"><img src="@/assets/img/github02.svg" alt="github-svg"></a>
+          </div>
         </div>
       </section>
       <section class="section-work">

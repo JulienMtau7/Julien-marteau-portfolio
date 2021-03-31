@@ -24,6 +24,14 @@
       </textarea>
 
       <input type="submit" value="Send">
+
+      <div class="succesMsg">
+        <p>Votre message a bien été envoyé !</p>
+      </div>
+
+      <div class="errorMsg">
+        <p>Votre message a bien été envoyé !</p>
+      </div>
     </form>
   </div>
 </template>
@@ -39,8 +47,14 @@
         emailjs.sendForm('service_jc9rc07', 'template_2scokgv', e.target, 'user_ylL8Yr79oI6PVqJc3RKaL')
           .then((result) => {
               console.log('SUCCESS!', result.status, result.text);
+
+              let succesMsg = document.querySelector('.succesMsg')
+              succesMsg.classList.add('active')
+
           }, (error) => {
               console.log('FAILED...', error);
+              let errorMsg = document.querySelector('.errorMsg')
+              errorMsg.classList.add('active')
           });
       }
     }
