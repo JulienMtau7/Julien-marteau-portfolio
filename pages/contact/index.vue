@@ -41,7 +41,6 @@
 
   export default {
     name:'Contact',
-
     methods: {
       sendEmail: (e) => {
         emailjs.sendForm('service_jc9rc07', 'template_2scokgv', e.target, 'user_ylL8Yr79oI6PVqJc3RKaL')
@@ -56,7 +55,8 @@
               let errorMsg = document.querySelector('.errorMsg')
               errorMsg.classList.add('active')
           });
-      }
+      },
+
     }
   }
 </script>

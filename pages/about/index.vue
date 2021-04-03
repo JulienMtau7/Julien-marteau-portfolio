@@ -6,7 +6,7 @@
           <h2>About me</h2>
 
             <div class="resume">
-              <p>Fin 2019, je commence à m'intéresser au développement web à travers les formations d'Openclassrooms sur le Html et le Css. Je me découvre une réelle passion pour ce domaine et je m'engage donc dans une formation intensive qui m'a permis  de renforcer mes bases en Html, Css et Javascript, et d'apprendre de nouvelles technologies. J'ai aussi vu la méthode de travail Agile et l'utilisation de Github. Pendant cette formation je me suis spécialisé sur du React et vu redux, les Hooks, le Scss, etc.</p>
+              <p>Fin 2019, je commence à m'intéresser au développement web à travers les formations d'Openclassrooms sur le Html et le Css. Je me découvre une réelle passion pour ce domaine et je m'engage donc dans une formation intensive qui m'a permis  de renforcer mes bases en Html, Css et Javascript, et d'apprendre de nouvelles technologies. J'ai aussi vu la méthode de travail Agile et l'utilisation de Github. Pendant cette formation je me suis spécialisé sur du React, Redux et j'ai également vu les Hooks, le Scss, etc.</p>
               <p>Je me suis ensuite intéressé au framework Vue.js et Nuxt.js que j'ai tout de suite adoré.</p>
               <p>Aujourdhui, mon objectif est d'acquérir de nouvelles compétences sur les technologies que je connais déjà ou sur d'autres stack. Je suis donc à la recherche d'une première expérience en tant que développeur web front end, stagiaire ou salarié.</p>
             </div>
